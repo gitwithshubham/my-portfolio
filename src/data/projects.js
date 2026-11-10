@@ -1,0 +1,68 @@
+
+export const projects = [
+    {
+        id: "credit-risk-dashboard",
+        title: "Credit Risk Analysis Dashboard",
+        category: "Dashboard",
+        year: "",
+        summary: "Analytics dashboard visualizing a $4.82B portfolio exposure.",
+        description:
+            "A credit risk analytics dashboard built in React.js that visualizes $4.82B of portfolio exposure with Chart.js. It includes KPI metrics, ECL trend analysis, risk grade distribution, sector concentration and counterparty exposure tables with PD/LGD metrics.",
+        role: "Developer",
+        tools: [
+            "React.js",
+            "Chart.js",
+            "JavaScript (ES6+)",
+            "HTML5",
+            "CSS3",
+            "Vercel",
+        ],
+        coverImage: "",
+        liveUrl: "",
+        sourceUrl: "",
+        featured: true,
+    },
+    {
+        id: "url-shortener",
+        title: "URL Shortener",
+        category: "Full-Stack",
+        year: "",
+        summary: "Full-stack link shortener with unique codes and instant redirects.",
+        description:
+            "A full-stack URL shortening app with RESTful APIs, unique short-code generation, instant redirection and persistent MongoDB storage. The responsive React.js frontend offers real-time link generation and input validation, backed by Node.js and Express.js services.",
+        role: "Developer",
+        tools: [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "HTML5",
+            "CSS3",
+            "Vercel",
+        ],
+        coverImage: "",
+        liveUrl: "",
+        sourceUrl: "",
+        featured: true,
+    },
+    {
+        id: "smart-expense-tracker-ai",
+        title: "Smart Expense Tracker AI",
+        category: "Full-Stack",
+        year: "",
+        summary: "Expense tracker with budgeting, analytics and AI spending insights.",
+        description:
+            "A full-stack expense tracking app with budgeting and analytics features. It provides AI-based spending insights, category-wise expense analysis, and responsive dashboards with real-time monitoring and graphical reports. The React frontend integrates with Node.js APIs and a MongoDB database.",
+        role: "Developer",
+        tools: [
+            "React.js",
+            "Node.js",
+            "MongoDB",
+            "Vercel",
+        ],
+        coverImage: "",
+        liveUrl: "",
+        sourceUrl: "",
+        featured: true,
+    },
+];
