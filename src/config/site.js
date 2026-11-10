@@ -28,7 +28,7 @@ export const site = {
     storageKey: "shubham-motion",
 
     contact: {
-        email: "mailfuture.sde@gmail.com",
+        email: "mailshubhamsingh8210@gmail.com",
         linkedin: "https://www.linkedin.com/in/shubham-kumar-bbb106407",
         github: "https://github.com/gitwithshubham",
     },

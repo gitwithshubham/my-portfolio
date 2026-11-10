@@ -63,10 +63,21 @@ export default function Experience() {
 
                     <ul className="certs">
                         {certifications.map((c) => (
-                            <li key={c.id}>
+                            <li key={c.id} className="cert-card">
                                 <span className="tag">{c.issuer}</span>
                                 <br />
                                 {c.title}
+
+                                {c.pdf && (
+                                    <a
+                                        href={c.pdf}
+                                        className="cert-visit"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Visit Certificate ↗
+                                    </a>
+                                )}
                             </li>
                         ))}
                     </ul>

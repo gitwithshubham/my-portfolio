@@ -1064,3 +1064,43 @@ form textarea {
         margin-bottom: 4px;
     }
 }
+
+.cert-card {
+    position: relative;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.cert-visit {
+    display: inline-block;
+    margin-top: 14px;
+    color: var(--accent);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+    opacity: 0;
+    transform: translateY(5px);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.cert-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-4px);
+}
+
+.cert-card:hover .cert-visit,
+.cert-card:focus-within .cert-visit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (hover: none) {
+    .cert-visit {
+        opacity: 1;
+        transform: none;
+    }
+}
+.cert-visit {
+    display: block;
+    width: fit-content;
+    margin-top: 14px;
+}

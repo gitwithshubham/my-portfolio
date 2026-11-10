@@ -35,35 +35,42 @@ export const education = [
     },
 ];
 
+
 export const certifications = [
     {
         id: "c1",
         issuer: "Oracle",
         title: "Certified Agentic AI Foundation Associate",
+        pdf: "/certificates/oracle-agentic-ai.pdf",
     },
     {
         id: "c2",
         issuer: "Anthropic",
         title: "Building with the Claude API",
+        pdf: "/certificates/anthropic-claude-api.pdf",
     },
     {
         id: "c3",
         issuer: "IBM",
         title: "Certified Data Analyst (six microcredentials)",
+        pdf: "/certificates/ibm-data-analyst.pdf",
     },
     {
         id: "c4",
         issuer: "Walmart",
         title: "Advanced Software Engineer",
+        pdf: "/certificates/walmart-software-engineer.pdf",
     },
     {
         id: "c5",
         issuer: "JPMorgan",
         title: "Quantitative Researcher",
+        pdf: "/certificates/jpmorgan-quantitative-research.pdf",
     },
     {
         id: "c6",
         issuer: "Microsoft",
         title: "Azure Computer Vision Solutions; Threat Protection with Microsoft Defender XDR",
+        pdf: "/certificates/microsoft-azure-security.pdf",
     },
 ];
